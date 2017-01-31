@@ -2,10 +2,10 @@
   "name": "ng2-starter-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app/main.js",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
-    "lint": "tslint ./app/**/*.ts -t verbose",
+    "lint": "tslint ./src/app/**/*.ts -t verbose",
     "lite": "lite-server",
     "tsc": "tsc",
     "tsc:w": "tsc -w"
@@ -28,6 +28,7 @@
     "@angular/platform-browser": "~2.4.0",
     "@angular/platform-browser-dynamic": "~2.4.0",
     "@angular/router": "~3.4.0",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.19",
     "angular-in-memory-web-api": "~0.2.4",
     "bootstrap": "^4.0.0-alpha.6",
     "core-js": "^2.4.1",

@@ -9,6 +9,8 @@ import {STATES} from "./app.states";
 import {HomeModule} from "./pages/home/home.module";
 import {AboutModule} from "./pages/about/about.module";
 import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
+import {Navbar} from "./theme/components/navbar/navbar.component";
+import {NgaModule} from "./theme/nga.module";
 
 @NgModule({
     imports: [
@@ -18,12 +20,12 @@ import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
             otherwise: {state: 'app', params: {}},
             useHash: true
         }),
-        //NgaModule.forRoot(),
-        //Navbar,
         BrowserModule,
         FormsModule,
         HomeModule,
-        AboutModule
+        AboutModule,
+        //NgaModule.forRoot(),
+        //Navbar
     ],
     declarations: [AppComponent],
     bootstrap: [UIView]

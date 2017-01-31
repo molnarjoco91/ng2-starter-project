@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 
 @Component({
     selector: 'app',
-    templateUrl: `src/app/main.html`,
+    templateUrl: `./main.html`,
     providers: []
 
 })

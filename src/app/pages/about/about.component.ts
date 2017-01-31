@@ -9,7 +9,7 @@ import {Component} from '@angular/core';
 
 @Component({
     selector: 'about',
-    templateUrl: 'src/app/pages/about/about.html'
+    templateUrl: './about.html'
 })
 export class AboutComponent {
     constructor() {

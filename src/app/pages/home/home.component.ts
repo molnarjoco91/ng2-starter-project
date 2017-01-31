@@ -9,7 +9,7 @@ import {Component} from '@angular/core';
 
 @Component({
     selector: 'home',
-    templateUrl: 'src/app/pages/home/home.html'
+    templateUrl: './home.html'
 })
 export class HomeComponent {
     constructor() {

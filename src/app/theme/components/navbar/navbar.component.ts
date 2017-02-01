@@ -2,7 +2,7 @@ import {Component, ElementRef} from '@angular/core';
 
 @Component({
     selector: 'navbar',
-    templateUrl: './navbar.html'
+    templateUrl: 'src/app/theme/components/navbar/navbar.html'
 })
 
 export class Navbar {

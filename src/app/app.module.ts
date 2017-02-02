@@ -1,14 +1,13 @@
-import {NgModule}      from '@angular/core';
-import {BrowserModule} from '@angular/platform-browser';
-import {FormsModule} from '@angular/forms';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-
-import {AppComponent}  from './app.component';
-import {UIRouterModule, UIView} from 'ui-router-ng2';
-import {STATES} from './app.states';
-import {HomeModule} from './pages/home/home.module';
-import {AboutModule} from './pages/about/about.module';
-import {NavbarModule} from "./theme/components/navbar/navbar.module";
+import {NgModule} from "@angular/core";
+import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
+import {UIRouterModule, UIView} from "ui-router-ng2";
+import {STATES} from "./app.states";
+import {BrowserModule} from "@angular/platform-browser";
+import {FormsModule} from "@angular/forms";
+import {HomeModule} from "./pages/home/home.module";
+import {AboutModule} from "./pages/about/about.module";
+import {AppComponent} from "./app.component";
+import {Navbar} from "./theme/components/navbar/navbar.component";
 
 @NgModule({
     imports: [
@@ -21,10 +20,9 @@ import {NavbarModule} from "./theme/components/navbar/navbar.module";
         BrowserModule,
         FormsModule,
         HomeModule,
-        AboutModule,
-        NavbarModule
+        AboutModule
     ],
-    declarations: [AppComponent],
+    declarations: [AppComponent, Navbar],
     bootstrap: [UIView]
 })
 

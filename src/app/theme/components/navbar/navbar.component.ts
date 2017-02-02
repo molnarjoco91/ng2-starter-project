@@ -6,15 +6,7 @@ import {Component, ElementRef} from '@angular/core';
 })
 
 export class Navbar {
-
-    constructor(el: ElementRef) {
-
-    }
-
-    ngOnInit() {
-    }
-
-    ngAfterViewInit() {
+    constructor() {
     }
 
 }

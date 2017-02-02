@@ -4,6 +4,5 @@
 .idea/ng2-starter-project.iml
 .idea/workspace.xml
 node_modules/
-/package.json
 src/custom-typings.d.ts
 src/package.json

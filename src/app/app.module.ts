@@ -8,9 +8,7 @@ import {UIRouterModule, UIView} from "ui-router-ng2";
 import {STATES} from "./app.states";
 import {HomeModule} from "./pages/home/home.module";
 import {AboutModule} from "./pages/about/about.module";
-import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
 import {Navbar} from "./theme/components/navbar/navbar.component";
-import {NgaModule} from "./theme/nga.module";
 
 @NgModule({
     imports: [
@@ -23,8 +21,7 @@ import {NgaModule} from "./theme/nga.module";
         BrowserModule,
         FormsModule,
         HomeModule,
-        AboutModule,
-        Navbar
+        AboutModule
     ],
     declarations: [AppComponent, Navbar],
     bootstrap: [UIView]

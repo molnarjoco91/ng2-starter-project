@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import 'style-loader!./home.scss';
 
 /**
  * This component has "home" (resolve data) injected into the constructor.

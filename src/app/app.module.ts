@@ -24,10 +24,9 @@ import {NgaModule} from "./theme/nga.module";
         FormsModule,
         HomeModule,
         AboutModule,
-        //NgaModule.forRoot(),
-        //Navbar
+        Navbar
     ],
-    declarations: [AppComponent],
+    declarations: [AppComponent, Navbar],
     bootstrap: [UIView]
 })
 
